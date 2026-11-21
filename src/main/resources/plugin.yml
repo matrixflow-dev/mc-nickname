@@ -1,0 +1,18 @@
+name: Nickname
+version: '${version}'
+main: jp.matrixflow.nickname.NicknamePlugin
+api-version: '26.3'
+description: Lets players choose the name shown in chat and the player list.
+author: MatrixFlow
+commands:
+  nick:
+    description: Change the name shown in chat and the player list.
+    usage: /nick <name|off>  or  /nick <player> <name|off>
+    permission: nickname.use
+permissions:
+  nickname.use:
+    description: Change your own nickname.
+    default: true
+  nickname.others:
+    description: Change other players' nicknames.
+    default: op

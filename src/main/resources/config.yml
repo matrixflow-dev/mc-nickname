@@ -1,0 +1,6 @@
+# Longest nickname, in characters. Japanese characters count as one each.
+max-length: 16
+
+# Names nobody may take, such as the AI staff's name. Case does not matter.
+reserved:
+  - アイ
